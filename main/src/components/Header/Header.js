@@ -1,21 +1,23 @@
 import React from "react";
-import sImage from '../../assets/s.png'
+
+//Importando componentes
+import LetrasHtmlTopo from "./LetrasHtmlTopo";
+import TituloHeader from "./TituloHeader";
+import Role from "./Role";
+
+// importando CSS
+import "./Header.css";
 
 function Header() {
   return (
     <div id="header">
-      
-      <span className="letras_html html_topo">&lt;html&gt;</span>
-      <span className="letras_html body_topo">&lt;body&gt;</span>
-      <span className="letras_html h1_topo">&lt;h1&gt;</span>
+      <LetrasHtmlTopo />
 
-      <h1 className="titulo ola"><span>Olá</span>,</h1>
-      
-      <h1 className="titulo meunome">Sou <img src={sImage}></img>tanley,</h1>
-      
-      <span className="titulo front_end">Desenvolvedor Web</span>
+      <TituloHeader />
 
-      <span></span>
+      <span className="letras_html h1_html_final">&lt;/h1&gt;</span>
+
+      <Role />
     </div>
   );
 }
