@@ -33,8 +33,7 @@
 }
 
 .h1_topo {
-  top: 24%;
-  left: 1%;
+  right: 4%;
   position: relative;
 }
 
@@ -49,12 +48,13 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  
 }
 
 .titulo {
   font-size: 75px;
 
-  text-shadow: 0 2px rgba(0, 0, 0, 0.7);
+  text-shadow: 5px 5px rgba(0, 0, 0, 0.176);
 
   font-weight: 600;
 
@@ -64,34 +64,33 @@
 .ola {
   position: relative;
   display: inline;
-  transition: letter-spacing 0.7s, margin-bottom 0.7s, font-size 0.7s,
-    color 0.7s, text-shadow 0.7s;
+  transition: all 0.7s ease;
+  max-width: 19%;
+
+  right: 3%;
 }
 
 .ola:hover {
-  margin-bottom: 10px;
   letter-spacing: 8px;
   font-size: 80px;
 
-  text-shadow: 0 0.5px #fd9f02;
   color: white;
 }
 
 .meunome {
-  left: 2%;
   position: relative;
   display: inline;
-  transition: letter-spacing 0.7s, margin-bottom 0.7s, margin-top 0.7s,
-    font-size 0.7s, color 0.7s, text-shadow 0.7s;
+  transition: all 0.7s ease;
+
+  max-width: 50%;
 }
 
 .meunome:hover {
-  margin-bottom: 10px;
-  margin-top: 10px;
   letter-spacing: 8px;
   font-size: 80px;
 
-  text-shadow: 0 0.5px #fd9f02;
+  max-width: 65%;
+
   color: white;
 }
 
@@ -100,68 +99,65 @@
   position: relative;
   display: inline;
 
-  width: 60px;
+  width: 55px;
 }
 
 .front_end {
-  left: 4%;
-
   position: relative;
   display: inline;
-  transition: letter-spacing 0.7s, margin-bottom 0.7s, margin-top 0.7s,
-    font-size 0.7s, color 0.7s, text-shadow 0.7s;
+  transition: all 0.7s ease;
+
+  max-width: 100%;
 }
 
 .front_end:hover {
-  margin-bottom: 10px;
-  margin-top: 10px;
   letter-spacing: 6px;
   font-size: 80px;
 
-  text-shadow: 0 0.5px #fd9f02;
+  max-width: 100%;
+
   color: white;
+
 }
 
-#titulo_header p {
+#titulo_header #p {
   align-self: flex-start;
   position: relative;
 
+  max-width: 57%;
   margin: 0;
   left: 4%;
   font-weight: 300;
   font-size: 18px;
   letter-spacing: 2.5px;
 
-  color: white;
-  opacity: 30%;
+  color: gray;
+  opacity: 50%;
 
-  transition: letter-spacing 0.7s;
+  transition: all 0.7s ease;
 }
 
-#titulo_header p:hover {
+#titulo_header #p:hover {
   letter-spacing: 4.5px;
+  max-width: 68%;
 }
 
 #titulo_header a {
-  transition: color 0.6s;
-  background-color: #1d1d1d;
-  width: 20%;
+  box-sizing: border-box;
+  
+  width: 100%;
   height: 5%;
   padding: 15px;
-  padding-left: 40px;
-  padding-right: 40px;
-  border-radius: 3px;
+  padding-left: 35px;
+  padding-right: 35px;
+  border-radius: 5px;
 
-  color: #fd9f02;
-  border: 1px solid #fd9f02;
-
-  transition: color 0.6s, background-color 0.7s, font-weight 0.7s;
-}
-
-#titulo_header a:hover {
-  color: #1d1d1d;
-  font-weight: 500;
   background-color: #fd9f02;
+  color: #1d1d1d;
+  border: none;
+  box-shadow: 5px 5px rgba(0, 0, 0, 0.176);
+
+  transition: all 0.7s ease;
 }
 
 button {
@@ -169,40 +165,23 @@ button {
   position: relative;
   cursor: pointer;
   border: none;
+  box-sizing: border-box;
 
-  margin-top: 3%;
-  left: 4%;
-  font-weight: 300;
-  font-size: 18px;
+  margin-top: 5%;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 20px;
   letter-spacing: 2.5px;
 
   background-color: #1d1d1d;
+
+  transition: all 1s ease;
 }
 
-/* Pequenas letras HTML do final */
-
-.html_final {
-  display: inline;
-  flex-direction: column;
+button:hover{
+  animation: bounce 1s;
 }
 
-.h1_html_final {
-  bottom: 11%;
-  left: 68%;
-  position: relative;
-}
-
-.body_final {
-  top: 30%;
-  left: 1%;
-  position: relative;
-}
-
-.html_text_final {
-  top: 35%;
-  left: -5%;
-  position: relative;
-}
 
 /* Role para baixo */
 
@@ -212,7 +191,7 @@ button {
   flex-direction: row;
   justify-content: space-between;
 
-  top: 12%;
+  top: 23%;
 
   width: 100%;
   font-size: 16px;

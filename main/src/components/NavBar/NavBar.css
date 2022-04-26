@@ -1,3 +1,21 @@
+@keyframes bounce {
+  0%, 20%, 60%, 100%{
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+
+  40%{
+    -webkit-transform: translateY(-10px);
+    transform: translateY(-10px);
+  }
+  
+  80%{
+    -webkit-transform: translateY(-5px);
+    transform: translateY(-5px);
+  }
+}
+
+
 nav {
     width: 20vh;
     height: 100vh;
@@ -24,21 +42,29 @@ nav {
     background-color: black;
   }
   
-  #nav_header a {
+  #nav_header Link {
     text-decoration: none;
     color: #f1f1f1;
+    cursor: pointer;
   }
   
   #nav_header img {
     margin-left: 5%;
     width: 60%;
     padding: 15%;
+    transition: all 0.7s ease;
+    cursor: pointer;
+  }
+
+  #nav_header img:hover {
+    animation: bounce 1s;
   }
   
   #titulo_span {
     font-size: 22px;
     font-weight: 700;
     margin-bottom: 10px;
+    cursor: pointer;
   }
   
   #sub_span {
@@ -46,6 +72,7 @@ nav {
   
     font-size: 13px;
     font-weight: 300;
+    cursor: pointer;
   }
   
   /* Sessão central para acesso as abas */
@@ -74,7 +101,9 @@ nav {
     text-decoration: none;
     color: gray;
   
-    transition: text-shadow 0.1s;
+    transition: all 0.7s ease;
+
+    cursor: pointer;
   }
   
   .componente_lista:hover {
@@ -102,6 +131,10 @@ nav {
     width: 80%;
   }
   
+  #redes_sociais li {
+    transition: all 1s ease;
+  }
+
   #redes_sociais li:hover {
-    box-shadow: 0px 0px 35px #241b1b;
+    animation: bounce 1s;
   }

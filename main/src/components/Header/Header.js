@@ -11,11 +11,8 @@ import "./Header.css";
 function Header() {
   return (
     <div id="header">
-      <LetrasHtmlTopo />
-
+      <LetrasHtmlTopo html="h1" />
       <TituloHeader />
-
-      <span className="letras_html h1_html_final">&lt;/h1&gt;</span>
 
       <Role />
     </div>

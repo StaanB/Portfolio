@@ -6,6 +6,7 @@ import Navbar from "./components/NavBar/Navbar";
 import Header from "./components/Header/Header";
 import Sobre from "./components/Sobre/Sobre";
 
+
 function App() {
   return (
     <div className="container">
@@ -13,7 +14,7 @@ function App() {
 
       <Header />
 
-      <Sobre/>
+      <Sobre />
     </div>
   );
 }

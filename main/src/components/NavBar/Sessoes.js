@@ -1,28 +1,31 @@
 import React from "react";
 
+// React Scroll
+import {Link} from "react-scroll";
+
 function Sessoes() {
   return (
     <div id="sessoes">
       <ul>
         <li>
-          <a className="componente_lista" href="#sobre">
+          <Link className="componente_lista" to="sobre" smooth={true} duration={1500}>
             Sobre
-          </a>
+          </Link>
         </li>
         <li>
-          <a className="componente_lista" href="#habilidades">
+          <Link className="componente_lista" to="habilidade" smooth={true} duration={1500}>
             Habilidades
-          </a>
+          </Link>
         </li>
         <li>
-          <a className="componente_lista" href="#trabalhos">
+          <Link className="componente_lista" to="trabalhos" smooth={true} duration={1500}>
             Trabalhos
-          </a>
+          </Link>
         </li>
         <li>
-          <a className="componente_lista" href="#contato">
+          <Link className="componente_lista" to="contato" smooth={true} duration={1500}>
             Contato
-          </a>
+          </Link>
         </li>
       </ul>
     </div>

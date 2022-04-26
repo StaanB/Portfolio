@@ -5,6 +5,7 @@ import Redessociais from "./Redesociais";
 import Sessoes from "./Sessoes";
 import Navtitle from "./Navtitle";
 
+
 // Importando CSS
 import "./NavBar.css"
 
