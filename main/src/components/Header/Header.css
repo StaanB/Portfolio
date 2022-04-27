@@ -13,11 +13,17 @@
   color: #4d4d4d;
 
   font-size: 24px;
+
 }
 
 .html_topo {
-  display: inline;
+  display: flex;
+  position: relative;
   flex-direction: column;
+
+  width: 7%;
+  top: 2%;
+  left: 1%;
 }
 
 .html_text {
@@ -28,7 +34,7 @@
 
 .body_topo {
   top: 5%;
-  left: 1%;
+  left: 50%;
   position: relative;
 }
 
@@ -44,6 +50,8 @@
 
   margin-left: 10%;
   margin-top: 6%;
+
+  line-height: 4%;
 
   display: flex;
   flex-direction: column;
@@ -82,6 +90,10 @@
   display: inline;
   transition: all 0.7s ease;
 
+  margin-top: 2.5%;
+  margin-bottom: 5%;
+  
+
   max-width: 50%;
 }
 
@@ -94,12 +106,12 @@
   color: white;
 }
 
-#header img {
+.meunome img {
   left: 0%;
   position: relative;
   display: inline;
 
-  width: 55px;
+  width: 12%;
 }
 
 .front_end {
@@ -120,16 +132,22 @@
 
 }
 
+.div_p{
+  margin-top: 5%;
+  
+}
+
 #titulo_header #p {
   align-self: flex-start;
   position: relative;
 
   max-width: 57%;
   margin: 0;
-  left: 4%;
+  left: 2%;
   font-weight: 300;
   font-size: 18px;
   letter-spacing: 2.5px;
+  line-height: 220%;
 
   color: gray;
   opacity: 50%;
@@ -178,10 +196,6 @@ button {
   transition: all 1s ease;
 }
 
-button:hover{
-  animation: bounce 1s;
-}
-
 
 /* Role para baixo */
 
@@ -191,17 +205,21 @@ button:hover{
   flex-direction: row;
   justify-content: space-between;
 
-  top: 23%;
+  top: 31%;
 
   width: 100%;
   font-size: 16px;
   font-weight: 300;
 
   opacity: 65%;
+
+  animation: bounce 1.2s;
+  animation-iteration-count: infinite;
 }
 
+
 .role span img {
-  max-width: 17px;
+  width: 31%;
   margin-bottom: -5px;
 }
 

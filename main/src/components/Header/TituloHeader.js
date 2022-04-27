@@ -34,7 +34,7 @@ function TituloHeader() {
       </Fade>
 
       
-        <div>
+        <div className="div_p">
           <span className="letras_html">&lt;p&gt;</span>
 
           <Fade right>

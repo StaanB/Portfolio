@@ -9,24 +9,24 @@ function Redessociais() {
   return (
     <div id="redes_sociais">
       <ul>
-        <a href="https://github.com/StaanB" target="_blank">
+        <a href="https://github.com/StaanB" target="_blank" rel="noreferrer">
           <li>
-            <img src={github}></img>
+            <img src={github} alt="Imagem Github"></img>
           </li>
         </a>
 
         <a
           href="https://www.linkedin.com/in/stanley-brenner-213989184/"
-          target="_blank"
+          target="_blank" rel="noreferrer"
         >
           <li>
-            <img src={linkedin}></img>
+            <img src={linkedin} alt="Imagem Linkedin"></img>
           </li>
         </a>
 
-        <a href="https://www.instagram.com/staanb/" target="_blank">
+        <a href="https://www.instagram.com/staanb/" target="_blank" rel="noreferrer">
           <li>
-            <img src={instagram}></img>
+            <img src={instagram} alt="imagem Instagram"></img>
           </li>
         </a>
       </ul>

@@ -39,9 +39,31 @@ function Sobre() {
             dia estudo um pouco mais sobre o assunto buscando me aprimorar.
           </p>
         </Fade>
-        <Fade bottom><span className="laranja">Me chame pra trabalhar com você!</span></Fade>
+        <Fade bottom>
+          <span className="laranja">Me chame pra trabalhar com você!</span>
+        </Fade>
         <span className="letras_html">&lt;/p&gt;</span>
       </div>
+
+      <Fade right>
+        <div id="linguagens">
+          <div id="posteriores">
+            <span className="bottom">Javascript</span>
+            <span>CSS</span>
+            <span className="bottom">HTML</span>
+            <span className="bottom">Bootstrap</span>
+            <span>JQuery</span>
+            <span className="bottom">NodeJS</span>
+          </div>
+
+          <div id="anteriores">
+            <span>ReactJS</span>
+            <span className="bottom">Firebase</span>
+            <span className="bottom">MongoDB</span>
+            <span>Npm</span>
+          </div>
+        </div>
+      </Fade>
 
       <LetrasHtmlFim1 />
     </div>

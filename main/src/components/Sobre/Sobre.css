@@ -1,4 +1,6 @@
 #sobre {
+  display: flex;
+  flex-direction: column;
   margin-left: 20vh;
   width: 176vh;
   height: 100vh;
@@ -64,13 +66,98 @@
     margin-bottom: -3%;
 }
 
+#sobre_paragrafos p{
+  transition: all 0.7s ease;
+}
+
+#sobre_paragrafos p:hover{
+  letter-spacing: 0.5px;
+}
+
 #sobre_paragrafos .laranja{
     color: #fd9f02;
 }
 
+#linguagens{
+  position: relative;
+  left: 55%;
+  bottom: 40%;
+  width: 35%;
+  min-height: 45%;
+
+
+  color: #fd9f02;
+  font-size: 35px;
+  font-weight: 600;
+
+  animation: move 1.5s infinite;
+}
+
+#posteriores{
+  display: grid;
+  position: relative;
+
+  grid-template-columns: 1fr 1fr;
+  animation: tilt 15s infinite ease;
+
+  text-shadow: 5px 5px rgba(0, 0, 0, 0.176);
+}
+
+@keyframes tilt {
+  0%, 60%, 120%{
+    transform: rotateY(0deg);
+    
+  }
+
+  15%, 75%{
+    transform: rotateY(20deg);
+    transform: translateX(40px);
+    margin: 1%;
+    letter-spacing: 2px;
+  }
+
+  45%, 90%{
+    transform: rotateX(20deg);
+    transform: translateY(20px);
+    margin: 2%;
+    letter-spacing: 2.5px;
+  }
+}
+
+#linguagens .bottom{
+  position: relative;
+  bottom: 30%;
+  right: 8%;
+}
+
+#posteriores span{
+  margin-bottom: 30%;
+}
+
+#anteriores{
+  display: grid;
+  position: relative;
+
+  grid-template-columns: 1fr 1fr;
+  bottom: 92%;
+  font-size: 20px;
+  opacity: 35%;
+
+  animation: tilt 12s infinite ease;
+  text-shadow: 5px 5px rgba(0, 0, 0, 0.176);
+}
+
+#anteriores span{
+  margin-bottom: 85%;
+  margin-left: 20%;
+}
+
+
+
+
 .h2_html_final {
-  top: 5%;
-  left: 4%;
+
+  left: 6.5%;
   position: relative;
 }
 
@@ -81,18 +168,18 @@
   display: inline;
   flex-direction: column;
 
-  bottom: 20%;
+  bottom: 30%;
   left: 2%;
 }
 
 .html_text_final {
-  top: 35%;
+  bottom: 10%;
   left: -5%;
   position: relative;
 }
 
 .body_final {
-  top: 30%;
+  bottom: 100%;
   left: 1%;
   position: relative;
 }
