@@ -1,0 +1,56 @@
+#habilidades {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 20vh;
+  width: 176vh;
+  height: 100vh;
+
+}
+
+#habilidades_texto{
+    position: relative;
+    
+    bottom: 10%;
+    max-width: 50%;
+    height: 75%;
+    margin-left: 5%;
+}
+
+#titulo_habilidades span{
+    display: block;
+    margin: 0;
+}
+
+#titulo_habilidades h2{
+    position: relative;
+    justify-self: center;
+    
+    right: 1%;
+    margin: 0%;
+    max-width: 50%;
+    font-size: 55px;
+
+    color: #fd9f02;
+
+    transition: all 1s ease;
+}
+#titulo_habilidades h2:hover{
+    letter-spacing: 6px;
+    margin-left: 1%;
+}
+
+#titulo_habilidades p{
+    margin-bottom: 2px;
+    margin-top: 2%;
+}
+
+#habilidades_quadros{
+    position: relative;
+    bottom: 105%;
+    left: 100%;
+    background-color: blue;
+    max-width: 80%;
+    height: 100%;
+    margin-left: 5%;
+}

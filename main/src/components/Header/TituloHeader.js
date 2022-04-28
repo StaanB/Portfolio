@@ -33,20 +33,19 @@ function TituloHeader() {
         </div>
       </Fade>
 
-      
+      <Fade right>
         <div className="div_p">
           <span className="letras_html">&lt;p&gt;</span>
-
-          <Fade right>
-            <p id="p">Desenvolvedor Front-End / Desenvolvedor React</p>
-          </Fade>
-
+          <p id="p">Desenvolvedor Front-End / Desenvolvedor React</p>
           <span className="letras_html">&lt;/p&gt;</span>
         </div>
+      </Fade>
 
       <Fade right>
         <button>
-          <Link to="contato" smooth={true} duration={1500}>Contate-me!</Link>
+          <Link to="contato" smooth={true} duration={1500}>
+            Contate-me!
+          </Link>
         </button>
       </Fade>
     </div>

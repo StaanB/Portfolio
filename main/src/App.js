@@ -5,7 +5,7 @@ import "./App.css";
 import Navbar from "./components/NavBar/Navbar";
 import Header from "./components/Header/Header";
 import Sobre from "./components/Sobre/Sobre";
-
+import Habilidades from "./components/Habilidades/Habilidades";
 
 function App() {
   return (
@@ -15,6 +15,8 @@ function App() {
       <Header />
 
       <Sobre />
+
+      <Habilidades />
     </div>
   );
 }

@@ -1,6 +1,7 @@
 import React from "react";
+
 // Importando imagem da seta
-import seta from "../../assets/seta.png"
+import seta from "../../assets/seta.png";
 
 function Role() {
   return (

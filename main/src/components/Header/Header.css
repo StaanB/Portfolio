@@ -66,14 +66,13 @@
 
   font-weight: 600;
 
-  margin-bottom: -1%;
 }
 
 .ola {
   position: relative;
   display: inline;
   transition: all 0.7s ease;
-  max-width: 19%;
+  max-width: 15%;
 
   right: 3%;
 }
@@ -90,8 +89,8 @@
   display: inline;
   transition: all 0.7s ease;
 
-  margin-top: 2.5%;
-  margin-bottom: 5%;
+  margin-top: 5%;
+  margin-bottom: 8%;
   
 
   max-width: 50%;
@@ -149,7 +148,7 @@
   letter-spacing: 2.5px;
   line-height: 220%;
 
-  color: gray;
+  color: white;
   opacity: 50%;
 
   transition: all 0.7s ease;
@@ -205,7 +204,7 @@ button {
   flex-direction: row;
   justify-content: space-between;
 
-  top: 31%;
+  top: 25%;
 
   width: 100%;
   font-size: 16px;
