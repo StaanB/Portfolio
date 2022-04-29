@@ -3,6 +3,7 @@ import React from "react";
 // Importando imagem da seta
 import seta from "../../assets/seta.png";
 
+// Pequenas letrinhas no fundo da página insinuando a rolagem
 function Role() {
   return (
     <div className="role">

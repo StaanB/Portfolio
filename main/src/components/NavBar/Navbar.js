@@ -9,6 +9,7 @@ import Navtitle from "./Navtitle";
 // Importando CSS
 import "./NavBar.css"
 
+// Seção de Navbar lateral
 function Navbar(props) {
   return (
     <nav>

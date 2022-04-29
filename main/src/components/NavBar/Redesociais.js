@@ -5,6 +5,7 @@ import github from '../../assets/github.png'
 import linkedin from '../../assets/linkedin.png'
 import instagram from '../../assets/instagram.png'
 
+// Seção com links para minhas redes sociais
 function Redessociais() {
   return (
     <div id="redes_sociais">

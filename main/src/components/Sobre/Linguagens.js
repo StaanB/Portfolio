@@ -2,6 +2,7 @@ import React from "react";
 // Importando Fade Reveal
 import Fade from "react-reveal/Fade";
 
+// Nomes das linguagens flutuando ao lado
 function Linguagens() {
   return (
     <Fade bottom>

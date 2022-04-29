@@ -3,6 +3,7 @@ import React from "react";
 // importando componentes
 import Fade from "react-reveal/Fade";
 
+// Seção dos parágrafos de apresentação
 function SobreP() {
   return (
     <div id="sobre_paragrafos">

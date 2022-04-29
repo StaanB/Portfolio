@@ -1,7 +1,6 @@
 import React from "react";
 
 //Importando componentes
-import Fade from "react-reveal/Fade";
 import LetrasHtmlTopo from "./LetrasHtmlTopo";
 import TituloHeader from "./TituloHeader";
 import Role from "./Role";
@@ -9,13 +8,12 @@ import Role from "./Role";
 // importando CSS
 import "./Header.css";
 
+// Seção Header, principal da página
 function Header() {
   return (
     <section id="header">
-      <Fade right>
-        <LetrasHtmlTopo html="h1" />
-      </Fade>
-      
+      <LetrasHtmlTopo html="h1" />
+
       <TituloHeader />
 
       <Role />

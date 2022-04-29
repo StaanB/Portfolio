@@ -117,6 +117,8 @@
   text-shadow: 5px 5px rgba(0, 0, 0, 0.176);
 }
 
+/* Animação de movimento das letras */
+
 @keyframes tilt {
   0%, 60%, 120%{
     transform: rotateY(0deg);
