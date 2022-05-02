@@ -6,10 +6,11 @@ import Navbar from "./components/NavBar/Navbar";
 import Header from "./components/Header/Header";
 import Sobre from "./components/Sobre/Sobre";
 import Habilidades from "./components/Habilidades/Habilidades";
+import Trabalhos from "./components/Trabalhos/Trabalhos";
 
 function App() {
   return (
-    <div className="container">
+    <div>
       <Navbar />
 
       <Header />
@@ -17,6 +18,8 @@ function App() {
       <Sobre />
 
       <Habilidades />
+
+      <Trabalhos />
     </div>
   );
 }

@@ -4,223 +4,246 @@
   display: inline-flex;
   flex-direction: column;
   justify-content: space-between;
+  
   margin-left: 20vh;
+  
   width: 176vh;
   height: 100vh;
-
 }
 
 /* Seção do texto */
 
-#habilidades_sessoes{
-    position: relative;
-    
-    bottom: 10%;
-    max-width: 50%;
-    height: 75%;
-    margin-left: 5%;
+#habilidades_sessoes {
+  position: relative;
+
+  bottom: 10%;
+
+  max-width: 50%;
+  height: 75%;
+  margin-left: 5%;
 }
 
-#titulo_habilidades span{
-    display: block;
-    margin: 0;
+#titulo_habilidades span {
+  display: block;
+
+  margin: 0;
 }
 
-#titulo_habilidades h2{
-    position: relative;
-    justify-self: center;
-    
-    right: 1%;
-    margin: 0%;
-    max-width: 50%;
-    font-size: 55px;
+#titulo_habilidades h2 {
+  position: relative;
+  justify-self: center;
 
-    color: #fd9f02;
+  right: 1%;
+  margin: 0%;
+  max-width: 50%;
+  font-size: 55px;
 
-    transition: all 1s ease;
+  color: #fd9f02;
+
+  transition: all 1s ease;
 }
-#titulo_habilidades h2:hover{
-    letter-spacing: 6px;
-    margin-left: 1%;
-}
+#titulo_habilidades h2:hover {
+  letter-spacing: 6px;
 
-#titulo_habilidades p{
-    font-size: 17px;
-    margin-bottom: 2px;
-    margin-top: 2%;
-    width: 86%;
-    
-    transition: all 1s ease;
+  margin-left: 1%;
 }
 
-#titulo_habilidades p:hover{
-    letter-spacing: 0.2px;
-    line-break: none;
-    break-inside: none;
+#titulo_habilidades p {
+  font-size: 1rem;
+
+  margin-bottom: 2px;
+  margin-top: 2%;
+
+  width: 86%;
+
+  transition: all 1s ease;
 }
 
-#titulo_habilidades p a{
-    color: #fd9f02;
-    cursor: pointer;
+#titulo_habilidades p:hover {
+  line-break: none;
+  break-inside: none;
+
+  letter-spacing: 0.2px;
+}
+
+#titulo_habilidades p a {
+  cursor: pointer;
+
+  color: #fd9f02;
 }
 
 /* Quadros com barras de progresso */
 
-#habilidades_quadros{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr;
-    position: relative;
-    
-    bottom: 80%;
-    left: 100%;
-    max-width: 80%;
-    height: 80%;
-    margin-left: 5%;
+#habilidades_quadros {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  position: relative;
+
+  bottom: 80%;
+  left: 100%;
+  margin-left: 5%;
+
+  max-width: 80%;
+  height: 80%;
 }
 
-.progress_bar{
-    position: relative;
-    
-    width: 30%;
-    height: 30%;
+.progress_bar {
+  position: relative;
+
+  width: 30%;
+  height: 30%;
 }
 
-.progress_fora{
-    width: 128px;
-    height: 128px;
-    border-radius: 50%;
-    padding: 15px;
-    box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.4),
-                -6px -6px 10px -1px rgba(0, 0, 0, 0.15);
+.progress_fora {
+  width: 128px;
+  height: 128px;
+
+  border-radius: 50%;
+  padding: 15px;
+
+  box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.4),
+    -6px -6px 10px -1px rgba(0, 0, 0, 0.15);
 }
 
-.progress_dentro{
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.progress_dentro {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
-    left: 6%;
-    top: 7%;
-    width: 115px;
-    height: 115px;
-    border-radius: 50%;
-    box-shadow: inset 4px 4px 6px -1px rgba(0, 0, 0, 0.2),
-                inset -4px -4px 6px -1px rgba(0, 0, 0, 0.4);
+  left: 6%;
+  top: 7%;
+
+  width: 115px;
+  height: 115px;
+  border-radius: 50%;
+
+  box-shadow: inset 4px 4px 6px -1px rgba(0, 0, 0, 0.2),
+    inset -4px -4px 6px -1px rgba(0, 0, 0, 0.4);
 }
 
-
-.progress_dentro span{
-    font-size: 20px;
+.progress_dentro span {
+  font-size: 1.1rem;
 }
 
 /* Definindo animação de cada barra */
 
+.react {
+  fill: none;
+  stroke: url("#GradientColor");
 
+  stroke-width: 20px;
+  stroke-dasharray: 472;
+  stroke-dashoffset: 472;
 
-.react{
-    fill: none;
-    stroke: url("#GradientColor");
-    stroke-width: 20px;
-    stroke-dasharray: 472;
-    stroke-dashoffset: 472;
-    animation: react 2s linear forwards;
-    transition: all 1s ease;
+  animation: react 2s linear forwards;
+  transition: all 1s ease;
 }
 
-.react:hover{
-    stroke-width: 21.7px;
+.react:hover {
+  stroke-width: 21.7px;
 }
 
 @keyframes react {
-    100%{
-        stroke-dashoffset: 180;
-    }
+  100% {
+    stroke-dashoffset: 180;
+  }
 }
 
-.node{
-    fill: none;
-    stroke: url("#GradientColor");
-    stroke-width: 20px;
-    stroke-dasharray: 472;
-    stroke-dashoffset: 472;
-    animation: node 2s linear forwards;
-    transition: all 1s ease;
+.node {
+  fill: none;
+  stroke: url("#GradientColor");
+
+  stroke-width: 20px;
+  stroke-dasharray: 472;
+  stroke-dashoffset: 472;
+
+  animation: node 2s linear forwards;
+  transition: all 1s ease;
 }
 
-.node:hover{
-    stroke-width: 21.7px;
+.node:hover {
+  stroke-width: 21.7px;
 }
 
 @keyframes node {
-    100%{
-        stroke-dashoffset: 250;
-    }
+  100% {
+    stroke-dashoffset: 250;
+  }
 }
 
-.javascript{
-    fill: none;
-    stroke: url("#GradientColor");
-    stroke-width: 20px;
-    stroke-dasharray: 472;
-    stroke-dashoffset: 472;
-    animation: javascript 2s linear forwards;
-    transition: all 1s ease;
+.javascript {
+  fill: none;
+  stroke: url("#GradientColor");
+
+  stroke-width: 20px;
+  stroke-dasharray: 472;
+  stroke-dashoffset: 472;
+
+  animation: javascript 2s linear forwards;
+  transition: all 1s ease;
 }
 
-.javascript:hover{
-    stroke-width: 21.7px;
+.javascript:hover {
+  stroke-width: 21.7px;
 }
 
 @keyframes javascript {
-    100%{
-        stroke-dashoffset: 120;
-    }
+  100% {
+    stroke-dashoffset: 120;
+  }
 }
 
-.bootstrap{
-    fill: none;
-    stroke: url("#GradientColor");
-    stroke-width: 20px;
-    stroke-dasharray: 472;
-    stroke-dashoffset: 472;
-    animation: bootstrap 2s linear forwards;
-    transition: all 1s ease;
+.bootstrap {
+  fill: none;
+  stroke: url("#GradientColor");
+
+  stroke-width: 20px;
+  stroke-dasharray: 472;
+  stroke-dashoffset: 472;
+
+  animation: bootstrap 2s linear forwards;
+  transition: all 1s ease;
 }
 
-.bootstrap:hover{
-    stroke-width: 21.7px;
+.bootstrap:hover {
+  stroke-width: 21.7px;
 }
 
 @keyframes bootstrap {
-    100%{
-        stroke-dashoffset: 100;
-    }
+  100% {
+    stroke-dashoffset: 100;
+  }
 }
 
-svg{
-    position: absolute;
-    top: 0;
-    left: 0;
+svg {
+  position: absolute;
+
+  top: 0;
+  left: 0;
 }
 
 /* Texto HTML menor no final da seção */
 
-.habilidades_html_fim{
-    position: relative;
-    display: flex;
-    width: 15%;
-    right: 7%;
-    bottom: 70%;
+.habilidades_html_fim {
+  position: relative;
+  display: flex;
+
+  width: 15%;
+
+  right: 7%;
+  bottom: 70%;
 }
-.habilidades_html_fim span{
-    display: block;
-    margin: 0;
+.habilidades_html_fim span {
+  display: block;
+
+  margin: 0;
 }
 
-.habilidades_html_fim .body{
-    position: relative;
-    left: 80%;
-    bottom: 5%;
+.habilidades_html_fim .body {
+  position: relative;
+
+  left: 80%;
+  bottom: 5%;
 }

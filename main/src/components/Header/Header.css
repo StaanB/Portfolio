@@ -1,5 +1,6 @@
 #header {
   margin-left: 20vh;
+  
   width: 176vh;
   height: 100vh;
 }
@@ -8,12 +9,11 @@
 
 .letras_html {
   font-family: "Square Peg", Arial, Helvetica, sans-serif;
+
   font-weight: 300;
+  font-size: 1.5rem;
 
   color: #4d4d4d;
-
-  font-size: 24px;
-
 }
 
 .html_topo {
@@ -22,64 +22,66 @@
   flex-direction: column;
 
   width: 7%;
+
   top: 2%;
   left: 1%;
 }
 
 .html_text {
+  position: relative;
+
   top: 2%;
   left: 1%;
-  position: relative;
 }
 
 .body_topo {
+  position: relative;
+
   top: 5%;
   left: 50%;
-  position: relative;
 }
 
 .h1_topo {
-  right: 4%;
   position: relative;
+
+  right: 4%;
 }
 
 /* Titulos e letras HTML do topo */
 
 #titulo_header {
-  width: 70%;
-
-  margin-left: 10%;
-  margin-top: 6%;
-
-  line-height: 4%;
-
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  
+
+  width: 70%;
+  line-height: 4%;
+
+  margin-left: 10%;
+  margin-top: 6%;
 }
 
 .titulo {
-  font-size: 75px;
+  font-size: 4.5rem;
 
   text-shadow: 5px 5px rgba(0, 0, 0, 0.176);
 
   font-weight: 600;
-
 }
 
 .ola {
   position: relative;
   display: inline;
   transition: all 0.7s ease;
+
   max-width: 15%;
 
   right: 3%;
 }
 
 .ola:hover {
-  letter-spacing: 8px;
-  font-size: 80px;
+  letter-spacing: 0.2rem;
+  font-size: 4.9rem;
 
   color: white;
 }
@@ -91,14 +93,13 @@
 
   margin-top: 5%;
   margin-bottom: 8%;
-  
 
   max-width: 50%;
 }
 
 .meunome:hover {
-  letter-spacing: 8px;
-  font-size: 80px;
+  letter-spacing: 0.2rem;
+  font-size: 4.9rem;
 
   max-width: 65%;
 
@@ -106,9 +107,10 @@
 }
 
 .meunome img {
-  left: 0%;
   position: relative;
   display: inline;
+
+  left: 0%;
 
   width: 12%;
 }
@@ -122,30 +124,29 @@
 }
 
 .front_end:hover {
-  letter-spacing: 6px;
-  font-size: 80px;
+  letter-spacing: 0.2rem;
+  font-size: 4.9rem;
 
   max-width: 100%;
 
   color: white;
-
 }
 
-.div_p{
+.div_p {
   margin-top: 5%;
-  
 }
 
 #titulo_header #p {
   align-self: flex-start;
   position: relative;
 
-  max-width: 57%;
-  margin: 0;
   left: 2%;
+
+  margin: 0;
+  max-width: 57%;
   font-weight: 300;
-  font-size: 18px;
-  letter-spacing: 2.5px;
+  font-size: 1.1rem;
+  letter-spacing: 0.1rem;
   line-height: 220%;
 
   color: white;
@@ -155,15 +156,18 @@
 }
 
 #titulo_header #p:hover {
-  letter-spacing: 4.5px;
+  letter-spacing: 0.3rem;
+
   max-width: 68%;
 }
 
 #titulo_header a {
   box-sizing: border-box;
-  
+  border: none;
+
   width: 100%;
   height: 5%;
+
   padding: 15px;
   padding-left: 35px;
   padding-right: 35px;
@@ -171,7 +175,7 @@
 
   background-color: #fd9f02;
   color: #1d1d1d;
-  border: none;
+
   box-shadow: 5px 5px rgba(0, 0, 0, 0.176);
 
   transition: all 0.7s ease;
@@ -195,7 +199,6 @@ button {
   transition: all 1s ease;
 }
 
-
 /* Role para baixo */
 
 .role {
@@ -207,7 +210,7 @@ button {
   top: 25%;
 
   width: 100%;
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 300;
 
   opacity: 65%;
@@ -216,9 +219,9 @@ button {
   animation-iteration-count: infinite;
 }
 
-
 .role span img {
   width: 31%;
+
   margin-bottom: -5px;
 }
 

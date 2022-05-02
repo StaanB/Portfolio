@@ -1,7 +1,9 @@
 #sobre {
   display: flex;
   flex-direction: column;
+
   margin-left: 20vh;
+  
   width: 176vh;
   height: 100vh;
 }
@@ -9,9 +11,11 @@
 /* Título do Sobre */
 
 .h2_html_topo {
+  position: relative;
+
   bottom: 65%;
   left: 6%;
-  position: relative;
+  
 }
 
 #titulo_sobre {
@@ -22,6 +26,7 @@
 
   top: 5%;
   left: 7%;
+
   max-width: 35%;
 
   transition: all 0.7s ease;
@@ -29,10 +34,11 @@
 
 #titulo_sobre:hover {
   letter-spacing: 6px;
+
   max-width: 40%;
 }
 
-#titulo_sobre span{
+#titulo_sobre span {
   max-width: 900px;
 }
 
@@ -41,17 +47,20 @@
   justify-self: center;
   display: inline;
 
-  color: #fd9f02;
-
   font-size: 60px;
+
   max-width: 100%;
+
+  color: #fd9f02;
 }
 
 .h2_html_final {
+  position: relative;
+
   max-width: 5%;
+
   bottom: 20%;
   left: 4%;
-  position: relative;
 }
 
 /* Parágrafos do Sobre */
@@ -63,51 +72,55 @@
 
   max-width: 45%;
   height: 53%;
+
   font-size: 18px;
 
   left: 8%;
 }
 
-#sobre_paragrafos .letras_html{
-    right: 3%;
-    position: relative;
+#sobre_paragrafos .letras_html {
+  position: relative;
 
-    margin-top: -1%;
-    margin-bottom: -3%;
+  right: 3%;
+
+  margin-top: -1%;
+  margin-bottom: -3%;
 }
 
-#sobre_paragrafos p, #sobre_paragrafos span{
+#sobre_paragrafos p,
+#sobre_paragrafos span {
   transition: all 0.7s ease;
 }
 
-#sobre_paragrafos p:hover{
+#sobre_paragrafos p:hover {
   letter-spacing: 0.5px;
 }
 
-#sobre_paragrafos span:hover{
+#sobre_paragrafos span:hover {
   letter-spacing: 0.5px;
 }
 
-#sobre_paragrafos .laranja{
-    color: #fd9f02;
+#sobre_paragrafos .laranja {
+  color: #fd9f02;
 }
 
-#linguagens{
+#linguagens {
   position: relative;
+
   left: 60%;
   bottom: 45%;
+
   width: 35%;
   min-height: 45%;
 
-
-  color: #fd9f02;
-  font-size: 35px;
+  font-size: 2.3rem;
   font-weight: 600;
 
+  color: #fd9f02;
   animation: move 1.5s infinite;
 }
 
-#posteriores{
+#posteriores {
   display: grid;
   position: relative;
 
@@ -120,54 +133,61 @@
 /* Animação de movimento das letras */
 
 @keyframes tilt {
-  0%, 60%, 120%{
+  0%,
+  60%,
+  120% {
     transform: rotateY(0deg);
-    
   }
 
-  15%, 75%{
+  15%,
+  75% {
     transform: rotateY(20deg);
     transform: translateX(40px);
+
     margin: 1%;
+
     letter-spacing: 2px;
   }
 
-  45%, 90%{
+  45%,
+  90% {
     transform: rotateX(20deg);
     transform: translateY(20px);
+
     margin: 2%;
+
     letter-spacing: 2.5px;
   }
 }
 
-#linguagens .bottom{
+#linguagens .bottom {
   position: relative;
+
   bottom: 30%;
   right: 8%;
 }
 
-#posteriores span{
+#posteriores span {
   margin-bottom: 30%;
 }
 
-#anteriores{
+#anteriores {
   display: grid;
   position: relative;
 
   grid-template-columns: 1fr 1fr;
   bottom: 92%;
-  font-size: 20px;
+  font-size: 1.2rem;
   opacity: 35%;
 
   animation: tilt 12s infinite ease;
   text-shadow: 5px 5px rgba(0, 0, 0, 0.176);
 }
 
-#anteriores span{
+#anteriores span {
   margin-bottom: 85%;
   margin-left: 20%;
 }
-
 
 /* Textos menores do rodapé */
 
@@ -177,18 +197,21 @@
   flex-direction: column;
 
   max-width: 80%;
+
   bottom: 34%;
   left: 2%;
 }
 
 .html_text_final {
+  position: relative;
+
   top: 20%;
   left: -5%;
-  position: relative;
 }
 
 .body_final {
+  position: relative;
+
   bottom: 70%;
   left: 4%;
-  position: relative;
 }
