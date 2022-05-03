@@ -7,6 +7,7 @@ import Header from "./components/Header/Header";
 import Sobre from "./components/Sobre/Sobre";
 import Habilidades from "./components/Habilidades/Habilidades";
 import Trabalhos from "./components/Trabalhos/Trabalhos";
+import Contato from "./components/Contato/Contato";
 
 function App() {
   return (
@@ -20,6 +21,8 @@ function App() {
       <Habilidades />
 
       <Trabalhos />
+
+      <Contato />
     </div>
   );
 }

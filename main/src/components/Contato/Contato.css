@@ -1,0 +1,62 @@
+#contato {
+  margin-left: 20vh;
+
+  width: 176vh;
+  height: 100vh;
+}
+
+#email_form {
+  position: relative;
+
+  width: 50%;
+  height: 80%;
+
+  top: 5%;
+}
+
+#mapa {
+  position: relative;
+
+  width: 50%;
+  height: 80%;
+
+  left: 50%;
+  bottom: 75%;
+}
+
+#email_form h2{
+    position: relative;
+
+    left: 5%;
+
+    color: #FD9F02;
+}
+
+.input{
+    position: relative;
+    border: none;
+    outline: none;
+
+    
+    bottom: 5%;
+    left: 10%;
+
+    border-radius: 5%;
+    padding: 2%;
+    margin: 1.5%;
+    width: 25%;
+
+    color: white;
+    background-color: #1a1a1a;
+    box-shadow: 0 0 1em rgba(0, 0, 0, 0.5);
+}
+
+.msg{
+    position: relative;
+    
+    left: 10%;
+
+    width: 58%;
+    padding-bottom: 35%;
+
+}
