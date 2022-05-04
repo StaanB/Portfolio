@@ -8,7 +8,6 @@ import { Link } from "react-scroll";
 // Importando imagens
 import sImage from "../../assets/s.png";
 
-
 // Titulo principal com os textos e animações
 function TituloHeader() {
   return (
@@ -20,22 +19,13 @@ function TituloHeader() {
             <span>Olá</span>,
           </h1>
         </div>
-      </Slide>
-
-      <Slide bottom>
         <span className="titulo meunome">
           Sou <img src={sImage} alt="Imagem de um S laranja"></img>tanley,
         </span>
-      </Slide>
-
-      <Slide bottom>
         <div>
           <span className="titulo front_end">Desenvolvedor Web</span>
           <span className="letras_html">&lt;/h1&gt;</span>
         </div>
-      </Slide>
-
-      <Slide bottom>
         <div className="div_p">
           <span className="letras_html">&lt;p&gt;</span>
           <p id="p">Desenvolvedor Front-End / Desenvolvedor React</p>
@@ -43,13 +33,13 @@ function TituloHeader() {
         </div>
       </Slide>
 
-      <Slide bottom>
-        <button>
+      <button>
+        <Slide bottom>
           <Link to="contato" smooth={true} duration={1500}>
             Contate-me!
           </Link>
-        </button>
-      </Slide>
+        </Slide>
+      </button>
     </div>
   );
 }

@@ -1,8 +1,0 @@
-O portfólio foi inspirado em um site específico, todos os créditos ao mesmo: https://jacekjeznach.com
-
-Favicon: "https://www.flaticon.com/free-icons/keyboard"
-
-Header letra S: "https://www.flaticon.com/free-icons/s"
-
-Header seta para baixo: "https://www.flaticon.com/br/icones-gratis/seta"
-

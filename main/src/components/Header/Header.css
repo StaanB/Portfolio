@@ -21,7 +21,7 @@
   position: relative;
   flex-direction: column;
 
-  width: 7%;
+  width: 5%;
 
   top: 2%;
   left: 1%;
@@ -64,7 +64,7 @@
 .titulo {
   font-size: 4.5rem;
 
-  text-shadow: 5px 5px rgba(0, 0, 0, 0.176);
+  text-shadow: 5px 5px rgba(0, 0, 0, 0.2);
 
   font-weight: 600;
 }
@@ -72,7 +72,7 @@
 .ola {
   position: relative;
   display: inline;
-  transition: all 0.7s ease;
+  transition: all 1s ease;
 
   max-width: 15%;
 
@@ -89,7 +89,7 @@
 .meunome {
   position: relative;
   display: inline;
-  transition: all 0.7s ease;
+  transition: all 1s ease;
 
   margin-top: 5%;
   margin-bottom: 8%;
@@ -118,7 +118,7 @@
 .front_end {
   position: relative;
   display: inline;
-  transition: all 0.7s ease;
+  transition: all 1s ease;
 
   max-width: 100%;
 }
@@ -152,7 +152,7 @@
   color: white;
   opacity: 50%;
 
-  transition: all 0.7s ease;
+  transition: all 1s ease;
 }
 
 #titulo_header #p:hover {
@@ -168,7 +168,7 @@
   width: 100%;
   height: 5%;
 
-  padding: 15px;
+  padding: 8%;
   padding-left: 35px;
   padding-right: 35px;
   border-radius: 5px;
@@ -177,11 +177,13 @@
   color: #1d1d1d;
 
   box-shadow: 5px 5px rgba(0, 0, 0, 0.176);
-
-  transition: all 0.7s ease;
 }
 
-button {
+#titulo_header button:hover{
+  animation: bounce 1s ease;
+}
+
+#titulo_header button {
   align-self: flex-start;
   position: relative;
   cursor: pointer;
@@ -191,7 +193,7 @@ button {
   margin-top: 5%;
   font-weight: 500;
   font-size: 22px;
-  line-height: 20px;
+  line-height: 50%;
   letter-spacing: 2.5px;
 
   background-color: #1d1d1d;

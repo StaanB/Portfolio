@@ -12,7 +12,7 @@ import "./Header.css";
 function Header() {
   return (
     <section id="header">
-      <LetrasHtmlTopo html="h1" />
+      <LetrasHtmlTopo />
 
       <TituloHeader />
 

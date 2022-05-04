@@ -1,3 +1,20 @@
+# Créditos
+O portfólio foi inspirado em um site específico, todos os créditos ao mesmo: (https://jacekjeznach.com)
+
+Favicon: ("https://www.flaticon.com/free-icons/keyboard")
+
+GitHub Icon: ("https://www.flaticon.com/free-icons/github")
+
+Linkedin Icon: ("https://www.flaticon.com/free-icons/linkedin")
+
+Instagram icon("https://www.flaticon.com/free-icons/instagram")
+
+Header letra S: ("https://www.flaticon.com/free-icons/s")
+
+Header seta para baixo: ("https://www.flaticon.com/br/icones-gratis/seta")
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

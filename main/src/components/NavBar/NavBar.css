@@ -60,7 +60,7 @@ nav {
   width: 60%;
   padding: 15%;
 
-  transition: all 0.7s ease;
+  transition: all 1s ease;
 }
 
 #nav_header img:hover {
@@ -94,7 +94,6 @@ nav {
   max-height: 50%;
 
   font-size: 1rem;
-  margin-top: 10%;
   margin-right: 60%;
 }
 
@@ -103,7 +102,7 @@ nav {
 
   width: 100%;
 
-  padding: 27%;
+  padding: 25%;
 
   border-top: 1px solid #1d1d1d;
   border-bottom: 1px solid #1d1d1d;
@@ -113,7 +112,7 @@ nav {
   text-decoration: none;
   cursor: pointer;
 
-  transition: all 0.7s ease;
+  transition: all 1s ease;
   color: gray;
 }
 
@@ -139,13 +138,9 @@ nav {
 }
 
 #redes_sociais img {
-  width: 80%;
-}
-
-#redes_sociais li {
-  transition: all 1s ease;
+  width: 95%;
 }
 
 #redes_sociais li:hover {
-  animation: bounce 1s;
+  animation: bounce 1.2s;
 }
