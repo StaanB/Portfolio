@@ -1,0 +1,21 @@
+@media (max-width: 1300px) {
+    #habilidades{
+        margin-left: 15vh !important;
+    }
+
+    #titulo_habilidades h2{
+        font-size: 2.5rem !important;
+    }
+
+    #titulo_habilidades p{
+        font-size: 0.8rem !important;
+    }
+
+    #habilidades_quadros {
+        left: 90% !important;
+    }
+
+    #habilidades_quadros{
+        margin-right: 20% !important;
+    }
+}

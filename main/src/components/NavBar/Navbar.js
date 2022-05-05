@@ -7,6 +7,7 @@ import Navtitle from "./Navtitle";
 
 
 // Importando CSS
+import "./NavResponsive.css"
 import "./NavBar.css"
 
 // Seção de Navbar lateral

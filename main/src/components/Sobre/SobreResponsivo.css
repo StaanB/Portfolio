@@ -1,0 +1,31 @@
+@media (max-width: 1300px){
+    #sobre{
+        margin-left: 15vh !important;
+    }
+
+    #titulo_sobre{
+        width: 35vw !important;
+    }
+    
+    #titulo_sobre h2{
+        font-size: 3rem !important;
+    }
+    
+    #sobre_paragrafos{
+        font-size: 0.8rem !important;
+    }
+
+    #linguagens{
+        max-width: 15vw !important;
+
+        font-size: 1.5rem !important;
+
+        left: 70% !important;
+        top: 140% !important;
+    }
+
+    #anteriores{
+        bottom: 14% !important;
+        right: 55% !important;
+    }
+}

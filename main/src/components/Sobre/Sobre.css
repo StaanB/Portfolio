@@ -3,8 +3,9 @@
   flex-direction: column;
 
   margin-left: 20vh;
-  
-  width: 176vh;
+
+  width: 90%;
+  max-width: 1300px;
   height: 100vh;
 }
 
@@ -15,7 +16,6 @@
 
   bottom: 65%;
   left: 6%;
-  
 }
 
 #titulo_sobre {
@@ -27,7 +27,7 @@
   top: 5%;
   left: 7%;
 
-  max-width: 35%;
+  width: 50vw;
 
   transition: all 0.7s ease;
 }
@@ -35,7 +35,7 @@
 #titulo_sobre:hover {
   letter-spacing: 6px;
 
-  max-width: 40%;
+  max-width: 55vw;
 }
 
 #titulo_sobre span {
@@ -47,9 +47,7 @@
   justify-self: center;
   display: inline;
 
-  font-size: 60px;
-
-  max-width: 100%;
+  font-size: 3.5rem;
 
   color: #fd9f02;
 }
@@ -70,10 +68,10 @@
   flex-direction: column;
   position: relative;
 
-  max-width: 45%;
+  width: 40vw;
   height: 53%;
 
-  font-size: 18px;
+  font-size: 1.1rem;
 
   left: 8%;
 }
@@ -92,12 +90,9 @@
   transition: all 0.7s ease;
 }
 
-#sobre_paragrafos p:hover {
-  letter-spacing: 0.5px;
-}
-
+#sobre_paragrafos p:hover,
 #sobre_paragrafos span:hover {
-  letter-spacing: 0.5px;
+  letter-spacing: 0.1px;
 }
 
 #sobre_paragrafos .laranja {
@@ -105,13 +100,15 @@
 }
 
 #linguagens {
-  position: relative;
+  display: flex;
+  justify-content: space-evenly;
+  position: absolute;
 
-  left: 60%;
-  bottom: 45%;
+  left: 65%;
+  top: 130%;
 
-  width: 35%;
-  min-height: 45%;
+  max-width: 30vw;
+  min-height: 45vh;
 
   font-size: 2.3rem;
   font-weight: 600;
@@ -141,20 +138,16 @@
 
   15%,
   75% {
-    transform: rotateY(20deg);
-    transform: translateX(40px);
-
-    margin: 1%;
+    transform: rotateY(10deg);
+    transform: translateX(20px);
 
     letter-spacing: 2px;
   }
 
   45%,
   90% {
-    transform: rotateX(20deg);
-    transform: translateY(20px);
-
-    margin: 2%;
+    transform: rotateX(5deg);
+    transform: translateY(10px);
 
     letter-spacing: 2.5px;
   }
@@ -168,15 +161,17 @@
 }
 
 #posteriores span {
-  margin-bottom: 30%;
+  margin-bottom: 40%;
 }
 
 #anteriores {
   display: grid;
-  position: relative;
+  justify-content: space-evenly;
+  position: absolute;
 
   grid-template-columns: 1fr 1fr;
-  bottom: 92%;
+  bottom: 25%;
+  right: 50%;
   font-size: 1.2rem;
   opacity: 35%;
 
@@ -198,7 +193,7 @@
 
   max-width: 80%;
 
-  bottom: 34%;
+  bottom: 1%;
   left: 2%;
 }
 
@@ -206,7 +201,7 @@
   position: relative;
 
   top: 20%;
-  left: -5%;
+  left: -6%;
 }
 
 .body_final {

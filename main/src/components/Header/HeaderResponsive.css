@@ -1,0 +1,57 @@
+@media (max-width: 1300px) {
+  body {
+    max-width: 1000px;
+  }
+
+  /* Header */
+  #header {
+    position: relative;
+    top: 1vw;
+
+    max-height: 20%;
+
+    margin-bottom: 2%;
+  }
+
+  .ola {
+    font-size: 3rem !important;
+  }
+
+  .meunome {
+    margin-right: 1%;
+    font-size: 3rem !important;
+  }
+
+  .meunome:hover {
+    font-size: 3.5rem;
+  }
+
+  .front_end {
+    font-size: 3rem !important;
+  }
+
+  .div_p{
+    margin-bottom: 4%;
+  }
+
+  #p {
+    font-size: 0.75rem !important;
+    margin-top: 15px !important;
+    margin-bottom: 15px !important;
+  }
+
+  #titulo_header a{
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+
+  }
+
+  .role{
+    width: 99% !important;
+
+    font-size: 0.8rem !important;
+
+    right: 3%;
+    top: 30% !important;
+  }
+}

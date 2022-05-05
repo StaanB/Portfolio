@@ -1,7 +1,8 @@
 #header {
   margin-left: 20vh;
   
-  width: 176vh;
+  width: 90%;
+  max-width: 1280px;
   height: 100vh;
 }
 
@@ -62,8 +63,6 @@
 }
 
 .titulo {
-  font-size: 4.5rem;
-
   text-shadow: 5px 5px rgba(0, 0, 0, 0.2);
 
   font-weight: 600;
@@ -73,6 +72,8 @@
   position: relative;
   display: inline;
   transition: all 1s ease;
+
+  font-size: 4.5rem;
 
   max-width: 15%;
 
@@ -88,13 +89,23 @@
 
 .meunome {
   position: relative;
-  display: inline;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
   transition: all 1s ease;
 
+  right: 4%;
+
+  font-size: 4.5rem;
   margin-top: 5%;
   margin-bottom: 8%;
 
-  max-width: 50%;
+  max-width: 60%;
+}
+
+.meunome img{
+  margin-left: 5%;
 }
 
 .meunome:hover {
@@ -120,6 +131,7 @@
   display: inline;
   transition: all 1s ease;
 
+  font-size: 4.5rem;
   max-width: 100%;
 }
 
@@ -156,7 +168,7 @@
 }
 
 #titulo_header #p:hover {
-  letter-spacing: 0.3rem;
+  letter-spacing: 0.2rem;
 
   max-width: 68%;
 }
@@ -211,7 +223,7 @@
 
   top: 25%;
 
-  width: 100%;
+  width: 103%;
   font-size: 1rem;
   font-weight: 300;
 

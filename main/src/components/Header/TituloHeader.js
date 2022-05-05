@@ -16,14 +16,14 @@ function TituloHeader() {
         <div>
           <span className="letras_html h1_topo">&lt;h1&gt;</span>
           <h1 className="titulo ola">
-            <span>Olá</span>,
+            Olá,
           </h1>
         </div>
-        <span className="titulo meunome">
+        <h1 className="titulo meunome">
           Sou <img src={sImage} alt="Imagem de um S laranja"></img>tanley,
-        </span>
+        </h1>
         <div>
-          <span className="titulo front_end">Desenvolvedor Web</span>
+          <h1 className="titulo front_end">Desenvolvedor Web</h1>
           <span className="letras_html">&lt;/h1&gt;</span>
         </div>
         <div className="div_p">

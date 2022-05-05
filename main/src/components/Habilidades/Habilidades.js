@@ -6,6 +6,7 @@ import HabilidadesGraficos from "./HabilidadesGraficos";
 import HabilidadesHtmlFim from "./HabilidadesHtmlFim";
 
 // Importando CSS
+import "./HabilidadesResponsivo.css"
 import "./Habilidades.css";
 
 

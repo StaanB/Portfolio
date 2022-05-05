@@ -1,0 +1,51 @@
+@media (max-width: 1300px) {
+    nav{
+        max-height: 100%;
+    }
+
+  #nav_header{
+      position: relative;
+
+      max-height:30%;
+
+      padding-top: 15%;
+  }
+
+  #nav_header img{
+    padding: 15px;
+  }
+
+  #titulo_span{
+      position: relative;
+      
+      bottom: 5%;
+
+      font-size: 1.3rem !important;
+  }
+
+  #sub_span {
+    position: relative;
+
+    width: 60%;
+
+    left: 2%;
+    bottom: 5%;
+  }
+
+  #sessoes{
+      position: relative;
+
+      right: 10%;
+      bottom: 1%;
+
+      padding: 5%;
+  }
+
+  #sessoes li{
+      font-size: 0.8rem;
+  }
+
+  #redes_sociais img{
+      max-width: 75% !important;
+  }
+}

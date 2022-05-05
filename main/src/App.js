@@ -1,6 +1,7 @@
 // Imports globais
 import "./App.css";
 
+
 // Import de componentes
 import Navbar from "./components/NavBar/Navbar";
 import Header from "./components/Header/Header";
@@ -11,7 +12,7 @@ import Contato from "./components/Contato/Contato";
 
 function App() {
   return (
-    <div>
+    <main>
       <Navbar />
 
       <Header />
@@ -23,7 +24,7 @@ function App() {
       <Trabalhos />
 
       <Contato />
-    </div>
+    </main>
   );
 }
 
