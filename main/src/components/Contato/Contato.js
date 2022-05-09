@@ -1,6 +1,7 @@
 import React from "react";
 
 // Importando CSS
+import "./ContatoResponsivo.css"
 import "./Contato.css";
 
 // Importando componentes

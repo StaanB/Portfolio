@@ -1,7 +1,4 @@
 @media (max-width: 1300px) {
-  body {
-    max-width: 1000px;
-  }
 
   /* Header */
   #header {
@@ -9,8 +6,10 @@
     top: 1vw;
 
     max-height: 20%;
-
-    margin-bottom: 2%;
+    width: 900px !important;
+   
+    margin-bottom: 1%;
+    margin-left: 18vh !important;
   }
 
   .ola {
@@ -52,6 +51,49 @@
     font-size: 0.8rem !important;
 
     right: 3%;
-    top: 30% !important;
+    top: 28% !important;
+  }
+}
+
+@media (max-width: 900px){
+  #header{
+    margin-left: 5vh !important;
+
+    height: 150vh !important;
+  }
+
+  #titulo_header{
+   margin-top: 15% !important;
+   margin-left: 15% !important;
+  }
+
+  .ola, .meunome{
+    font-size: 4rem !important;
+  }
+
+  .meunome{
+    left: 2% !important;
+  }
+
+  .front_end{
+    font-size: 3.5rem !important;
+  }
+
+  .front_end:hover{
+    letter-spacing: 0.1rem !important;
+  }
+
+  #titulo_header #p{
+    font-size: 0.9rem !important;
+    max-width: 80% !important;
+  }
+
+  #titulo_header button{
+    margin-left: 30%;
+  }
+
+  .role{
+    font-size: 1rem !important;
+    top: 24% !important;
   }
 }

@@ -26,7 +26,7 @@ nav {
   align-items: center;
   justify-content: space-between;
   
- 
+
 
   width: 10%;
   height: 100%;
@@ -147,4 +147,89 @@ nav {
 
 #redes_sociais li:hover {
   animation: bounce 1.2s;
+}
+
+/* Menu responsivo */
+
+#menu_mobile{
+  display: none;
+
+  position: fixed;
+  justify-content: center;
+  align-items: center;
+
+  z-index: 1;
+}
+
+.menu_button{
+  position: fixed;
+  margin-left: auto;
+  cursor: pointer;
+  background-color: #181818;
+  border: none;
+
+  right: 95.5%;
+  bottom: 95.3%;
+
+  z-index: 1;
+}
+
+.menu.active{
+  opacity: 1;
+  visibility: visible;
+
+  width: 5%;
+
+  top: 0%;
+  right: 85%;
+
+  padding-right: 10%;
+
+
+  z-index: 0;
+
+  
+}
+
+.menu.inactive{
+  display: none;
+}
+
+.menu.active ul{
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+}
+
+.menu.active li{
+  position: relative;
+  
+  top: 5%;
+  right: 30%;
+
+  padding: 30%;
+
+  width: 100%;
+  
+  border-bottom: 2px solid #1d1d1d;
+}
+
+#menu_mobile .componente_lista{
+  padding: 15%;
+  padding-right: 40%;
+}
+
+.menu {
+  opacity: 0;
+}
+
+.mobile_sociais{
+  position: relative;
+  justify-content: space-evenly;
+  display: grid;
+  grid-template-columns:  1fr 1fr 1fr;
+
+  width: 280%;
+  bottom: 45%;
+  left: 100%;
 }

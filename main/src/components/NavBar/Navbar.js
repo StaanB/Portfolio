@@ -5,15 +5,15 @@ import Redessociais from "./Redesociais";
 import Sessoes from "./Sessoes";
 import Navtitle from "./Navtitle";
 
-
 // Importando CSS
-import "./NavResponsive.css"
-import "./NavBar.css"
+import "./NavResponsive.css";
+import "./NavBar.css";
+
 
 // Seção de Navbar lateral
 function Navbar(props) {
   return (
-    <nav>
+    <nav id="menu_pc">
       <Navtitle />
       <Sessoes />
       <Redessociais />

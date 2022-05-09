@@ -1,0 +1,77 @@
+@media (max-width: 1300px){
+    #contato{
+        margin-left: 17vh !important;
+
+        width: 90% !important;
+    }
+    
+    #mapa{
+        bottom: 40% !important;
+    }
+
+    .contato{
+        font-size: 2.5rem !important;
+    }
+
+    .p_form p{
+        font-size: 0.8rem;
+    }
+
+    .submit{
+        left: 20% !important;
+
+        padding: 13px !important;
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+    }
+
+    .mapa{
+        width: 100% !important;
+        height: 100% !important;
+    }
+
+    .pin_mapa{
+        width: 6% !important;
+        height: 9% !important;
+    }
+}
+
+@media (max-width: 900px){
+    #contato{
+        margin-left: 5vh !important;
+        height: 120vh !important;
+    }
+
+    #email_form{
+        margin-left: 15%;
+        width: 90vw !important;
+    }
+
+    #email_form h2{
+       font-size: 3.5rem !important;
+    }
+
+    .p_form p{
+        font-size: 1.1rem !important;
+    }
+
+    .input{
+        width: 40% !important;
+        left: 5% !important;
+    }
+
+    .msg{
+        width: 87% !important;
+
+        left: 5% !important;
+    }
+
+    .submit{
+        left: 35% !important;
+        padding: 23px !important;
+    }
+
+    #mapa{
+        display: none;
+    }
+}

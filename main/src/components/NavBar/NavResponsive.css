@@ -49,3 +49,24 @@
       max-width: 75% !important;
   }
 }
+
+@media (max-width: 900px){
+    #menu_pc{
+        display: none;
+    }
+
+    #menu_mobile{
+    display: block !important;
+    }
+
+    .menu_button{
+        position: fixed !important;
+        padding: 1%;
+        right: 95% !important;
+        bottom: 93% !important;
+    }
+
+    .mobile_sociais{
+        bottom: 40% !important;
+    }
+}

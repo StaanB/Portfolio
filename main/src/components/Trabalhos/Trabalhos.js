@@ -1,6 +1,7 @@
 import React from "react";
 
 // Importando CSS
+import "./TrabalhoResponsivo.css"
 import "./Trabalhos.css";
 
 // Importando imagens
