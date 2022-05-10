@@ -56,7 +56,7 @@
 
    #sobre_paragrafos{
        bottom: 1%;
-       width: 48vw !important;
+       width: 47vw !important;
        font-size: 1.1rem !important;
    }
    #html_sobre{
@@ -65,8 +65,12 @@
 
    #linguagens{
        top: 200% !important;
-       left: 85% !important;
+       left: 88% !important;
 
+       font-size: 2rem !important;
+   }
+
+   #anteriores{
        font-size: 2rem !important;
    }
 
@@ -78,4 +82,71 @@
        left: -9% !important;
        top: 18% !important;
    }
+
+}
+
+@media (max-width: 500px){
+    #sobre{
+        height: 290vh !important;
+
+        margin-top: 10%;
+    }
+
+    .h2_html_topo{
+        left: 10% !important;
+    }
+
+    #titulo_sobre{
+        top: 15% !important;
+        left: 15% !important;
+
+        width: 150vw !important;
+    }
+
+    #titulo_sobre:hover {
+        letter-spacing: 2px !important;
+        max-width: 150vw !important;
+    }
+
+    #titulo_sobre h2{
+        font-size: 5.5rem !important;
+    }
+
+    .h2_html_final{
+        bottom: 10% !important;
+        left: -5% !important;
+    }
+
+    #sobre_paragrafos{
+        width: 190vw !important;
+
+        font-size: 1.6rem !important;
+
+        left: 15% !important;
+    }
+
+    #linguagens{
+        top: 425% !important;
+        left: 120% !important;
+
+        font-size: 3rem !important;
+    }
+}
+
+@media (max-width: 370px){
+    #sobre{
+        height: 300vh !important;
+    }
+
+    #sobre_paragrafos{
+
+        font-size: 1.8rem !important;
+    }
+
+    #linguagens{
+        top: 480% !important;
+        left: 125% !important;
+
+        font-size: 3.2rem !important;
+    }
 }

@@ -1,33 +1,78 @@
-@media (max-width: 1300px){
-    #trabalhos{
-        margin-left: 17vh !important;
-    }
+@media (max-width: 1300px) {
+  #trabalhos {
+    margin-left: 17vh !important;
+  }
 
-    .card{
-        width: 30% !important;
-        height: 28% !important;
-    }
+  .card {
+    width: 30% !important;
+    height: 28% !important;
+  }
 }
 
-@media (max-width: 900px){
-    #trabalhos{
-        margin-left: 5vh !important;
-        height: 120vh !important;
-        margin-left: 10vh !important;
+@media (max-width: 900px) {
+  #trabalhos {
+    margin-left: 5vh !important;
+    height: 120vh !important;
+    margin-left: 10vh !important;
 
-        width: 100% !important;
-    }
+    width: 100% !important;
+  }
 
-    .card_section{
-        width: 100% !important;
-    }
+  .card_section {
+    width: 100% !important;
+  }
 
-    .card{
-        width: 40% !important;
-        margin-left: 5%;
-    }
+  .card {
+    width: 40% !important;
+    margin-left: 5%;
+  }
 
-    .card_clicado img{
-        height: 350% !important;
-    }
+  .card_clicado img {
+    height: 350% !important;
+  }
 }
+
+@media (max-width: 500px) {
+  #trabalhos {
+      height: 150vh !important;
+  }
+
+  .card_section {
+    display: grid !important;
+
+    left: -15%;
+  }
+
+  .card {
+    width: 120% !important;
+    height: 50% !important;
+
+    margin-bottom: 15%;
+  }
+
+  .sem_card {
+    display: none !important;
+  }
+
+  .card_clicado img{
+      display: relative !important;
+      height: 700% !important;
+
+      top: -400% !important;
+      left: 30%;
+  }
+}
+
+@media (max-width: 370px){
+  .card {
+    width: 180% !important;
+    height: 60% !important;
+  }
+
+  .card_clicado img{
+    height: 1100% !important;
+
+    top: -600% !important;
+    left: 25%;
+}
+} 

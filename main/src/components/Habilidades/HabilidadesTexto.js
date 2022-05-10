@@ -47,7 +47,7 @@ function HabilidadesTexto() {
           .
         </p>
       </Fade >
-      <span className="letras_html">&lt;p&gt;</span>
+      <span className="letras_html letra_p">&lt;p&gt;</span>
     </div>
   );
 }
